@@ -29,10 +29,28 @@ The website showcases my background, skills, experience, and projects in a simpl
 ---
 
 ## 📂 Project Structure
+- Capstone_Project_2/
+- │
+- ├── index.html
+- ├── styles.css
+- └── images/
+- └── (project and profile image)
 
-Capstone_Project_2/
-│
-├── index.html
-├── styles.css
-└── images/
-└── (project and profile image)
+
+---
+
+## 🎯 Project Requirements Met
+✔ Built using only HTML and CSS
+✔ Valid semantic HTML markup
+✔ Organized and maintainable CSS
+✔ Responsive design for different screen sizes
+✔ Accessible images with alt attributes
+✔ No JavaScript used
+
+---
+
+## 🚀 How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Capstone_Project_2.git
+
