@@ -30,3 +30,9 @@ The website showcases my background, skills, experience, and projects in a simpl
 
 ## 📂 Project Structure
 
+Capstone_Project_2/
+│
+├── index.html
+├── styles.css
+└── images/
+└── (project and profile image)
