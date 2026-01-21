@@ -1,4 +1,4 @@
-/* General reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +16,8 @@ body {
 .hero {
     background-color: #0077b6;
     color: white;
-    padding: 80px 20px;
     text-align: center;
+    padding: 60px 20px;
 }
 
 .hero h1 {
@@ -29,7 +29,17 @@ body {
     font-size: 1.2rem;
 }
 
-/* SECTION STYLING */
+/* PROFILE IMAGE */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+/* SECTIONS */
 section {
     max-width: 1000px;
     margin: 40px auto;
@@ -48,17 +58,20 @@ h2 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
 }
 
 .projects img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 8px;
 }
 
-/* CONTACT */
+/* CONTACT SECTION */
 .contact ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .contact a {
@@ -70,7 +83,15 @@ h2 {
     text-decoration: underline;
 }
 
-/* Responsive */
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0077b6;
+    color: white;
+}
+
+/* RESPONSIVE */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
@@ -79,5 +100,9 @@ h2 {
     .hero p {
         font-size: 1rem;
     }
-}
 
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
